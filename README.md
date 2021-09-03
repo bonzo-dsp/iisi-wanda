@@ -5,7 +5,7 @@
 1. 安裝 python 3.8.10 
 2. 安裝套件  
   `pip install -r requirements.txt`  
-4. 啟動 api 服務，預設 port:8100
+4. 啟動 api 服務，預設 port:8100  
   `python api.pyc` 
     
 ## `api.pyc` 可帶參數  
