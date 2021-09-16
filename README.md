@@ -34,8 +34,17 @@
 2. 安裝套件  
   `pip install -r requirements.txt`  
 4. 啟動 api 服務，預設 port:8100  
-  `python api.pyc` 
+  `python api.pyc` 或  `python api.pyc --port 8100` 或  `python api.pyc -p 8100` 
     
 ## `api.pyc` 可帶參數  
 * -h, --help  show this help message and exit  
 * -port PPPP  port number for the api service  
+
+## API 說明 &amp; 文件    
+API 啟動時會花一些時間喚醒套件，啟動成功會出現以下畫面  
+![](https://imgur.com/a/8DnKK7x)  
+
+在瀏覽器輸入　`http://<host ip>:<host port>/docs` 將出現API說明文件  
+![](https://imgur.com/a/D8llhf0)  
+
+所有的 APIs 皆有輸出/入格式，以及範例說明，請自行參閱  
